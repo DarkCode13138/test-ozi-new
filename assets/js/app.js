@@ -4,10 +4,14 @@ const burggerBtn = document.getElementById('burgger-btn');
 let menuWrap = document.querySelector('.m-navbar__elements');
 let menuElementNav = document.querySelector('.m-navbar__menu-wrap');
 
+
+
 burggerBtn.addEventListener('click', toggleSVGBurger);
 
 function toggleSVGBurger(e) {
   let subMenu = document.getElementsByClassName('m-navbar__submenu-wrap');
+
+
 
   const {
     target, currentTarget,
@@ -34,6 +38,11 @@ function toggleSVGBurger(e) {
 
 
     }
+
+    let btnActive = document.querySelector('.active');
+    let SubActive = document.querySelector('.active-sub');
+    btnActive.classList.remove('active');
+    SubActive.classList.remove('active-sub');
 
 
   } else {
