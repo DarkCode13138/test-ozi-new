@@ -335,6 +335,11 @@ header {
   }
 }
 @media screen and (max-width: 968px) {
+  .content-wrapper, .wrapper{
+    min-height: auto;
+  }
+
+
   .m-navbar__menu-wrap {
     height: 100%;
     -webkit-box-orient: vertical;
