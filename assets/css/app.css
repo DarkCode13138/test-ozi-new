@@ -331,12 +331,15 @@ header {
     left: 0;
   }
   .m-navbar__submenu-el a:hover {
-    background: #444ce0;
+    background: #000000;
+    transition: .3s;
+    color: #ffffff;
   }
 }
 @media screen and (max-width: 968px) {
   .content-wrapper, .wrapper{
     min-height: auto;
+
   }
 body{
   min-height: 200vh;
