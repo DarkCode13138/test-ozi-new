@@ -229,7 +229,6 @@ section {
 }
 .wrapper {
   margin: 0 auto;
-  min-width: 100vh;
 }
 .content-wrapper,
 .wrapper {
